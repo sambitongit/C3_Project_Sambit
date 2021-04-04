@@ -23,7 +23,6 @@ class RestaurantServiceTest {
 
         restaurant=  service.addRestaurant("Amelie's Cafe", "Chennai",openingTime,closingTime);
         assertEquals("Amelie's Cafe", restaurant.getName());
-      //  assertTrue(restaurant.getName().equals("Amelie's Cafe"));
     }
 
     @Test
